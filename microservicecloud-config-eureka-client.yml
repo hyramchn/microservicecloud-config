@@ -7,7 +7,7 @@ server:
   port: 7001
   spring:
     profiles: dev # 开发环境
-    application: >microservicecloud-config-eureka-client
+    application: microservicecloud-config-eureka-client
 eureka: 
   instance:
     hostname: eureka7001.com #eureka服务端的实例名称
